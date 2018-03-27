@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title>Reservation - Nocturna Lounge</title>
+
+    <!-- HTML5 -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- FONT-AWESOME -->
+    <script src="https://use.fontawesome.com/028c2b70b9.js"></script>
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700" rel="stylesheet">
+
+    <!-- VIEWPORT FOR MOBILE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--MAIN CSS FILE -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body id="bar">
+
+
+    <header class="site-header toggle-nav"> <div class="container">
+        <div class="site-branding">
+            <a href="index.html" title="Return to home" id="logo"><img src="img/logo_2.png" alt="Nocturna Lounge" /></a>
+            <span class="text-centered">NEXTGEN KARAOKE AND GAMING EXPERIENCE</span>
+        </div>
+
+        <nav>
+            <ul class="menu navicon text-centered">
+            <li><a href="karaoke.html">Karaoke</a></li>
+            <li><a href="gaming.html">Gaming</a></li>
+            <li><a href="bar.html">Bar</a></li>
+            <li><a href="specials.html">Specials</a></li>
+            <li><a href="reservation.html" class="drop">Reservation</a>
+                <ul class="dropdown">
+                <li>Suite 1 &amp; 2</li>
+                <li>Suite 3</li>
+                <li>Suite 4</li>
+                </ul></li>
+            <li><a class="selected" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div> </header>
+
+    <main>
+        <section class="text-centered container">
+          <div class="heading">
+            <h1>Reservation</h1>
+            <p>Please complete the form below to reserve a room. We will try to respond to all inquiries via email within 24 hours. Reservations should be made at least 2 days in advance or 2 weeks, for birthday specials.</p>
+          </div>
+        </section>
+
+        <div class="container">
+          <div class="row">
+            <div class="one-third column"><aside>
+
+            </aside></div>
+
+            <div class="column two-third">
+                    <h2><span id="roomname">Suite 1 or 2<span></h2>
+
+
+            <form id="contact">
+                  <label class="itemtitle" for="name">Name</label><br/><input placeholder="First Last" type="text" name="name"/><br/>
+                  <div class="row">
+                    <div class="column split nested"><label class="itemtitle" for="Email">Email</label><br/><input placeholder="email@exemple.com" type="email" name="email"/></div>
+                    <div class="column split nested"><label class="itemtitle" for="phone">Phone</label><br/><input placeholder="(000) 000-0000" type="tel" name="phone"/><br/></div>
+                  </div>
+                  <label class="itemtitle" for="subject">Subject</label><div class="selectholder"><span class="selectarrow"></span><select name="subject"/>
+                    <option value="" disabled selected>Choose a option</option>
+                    <option value="cancel">Cancel Reservation</option>
+                    <option value="policies">Policies and Procedures</option>
+                    <option value="parking">Parking Information</option>
+                    <option value="costumer">Costumer Service</option>
+                    <option value="private">Private Party</option>
+                    <option value="feedback">Comments and Sugestions</option>
+                  </select></div>
+                  <label class="itemtitle" for="message">Message</label><br/><textarea name="message"/></textarea>
+                  <input class="button" type="submit" value="Send"/>
+            </form>
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div  class="two-fifth column">
+                    <h3>Nocturna Lounge</h3>
+                    <div class="row">
+                        <div class="column split">
+                            <p>Waterfront Plaza</p>
+                            <p>500 Ala Moana Blvd. #5D</p>
+                            <p>Honolulu, HI 96813</p>
+                        </div>
+
+                        <div class="column split ">
+                            <p>(808) 521 1555</p>
+                            <p>Sat–Thu: 7PM to 2AM</p>
+                            <p>Fri: 5PM to 2AM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two-fifth column">
+                    <h3>Follow Us</h3>
+                    <div class="row">
+                        <div class="column split">
+                            <p class="fb"><a href="http://facebook.com/nocturnalounge">Facebook</a></p>
+
+                            <p class="tw"><a href="http://twitter.com/#!/NocturnaLounge">Twitter</a></p>
+
+                            <p class="inst"><a href="http://instagram.com/nocturnalounge">Instagram</a></p>
+                        </div>
+
+                        <div class="column split">
+                            <p class="fkr"><a href="http://www.flickr.com/photos/nocturnalounge/">Flickr</a></p>
+
+                            <p class="fs"><a href="https://foursquare.com/venue/21694731">Foursquare</a></p>
+
+                            <p class="yp"><a href="http://www.yelp.com/biz/nocturna-lounge-honolulu">Yelp</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="one-fifth column">
+                    <h3>Links</h3>
+                    <p><a href="#">Gallery</a></p>
+                    <p><a href="#">Policies</a></p>
+                    <p><a href="#">Home</a></p>
+                </div>
+            </div>
+
+            <p class="text-centered" id="copyr">&#169; Nocturna Lounge 2017, Designed by Stephan Bradley</p>
+
+        </div>
+
+    </footer>
+
+
+<!-- MAIN JS FILE -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
